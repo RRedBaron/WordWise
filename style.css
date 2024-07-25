@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 100px;
+  padding: 15px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 280px;
+  height: 65px;
+}
+
+.avatar {
+  width: 69px;
+  height: 69px;
+}
+
+main {
+  background: url("/images/intro-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.intro-text {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+}
+
+.intro-paragraph {
+  color: #ffffff;
+  text-align: center;
+  font-size: 36px;
+  max-width: 600px;
+}
+
+.flags-container {
+  display: flex;
+  gap: 20px;
+}
+
+.start-button {
+  background-color: #508d4e;
+  color: #ffffff;
+  font-size: 24px;
+  width: 270px;
+  height: 70px;
+  border-radius: 20px;
+  margin-top: 60px;
+}
+
+footer {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.footer-text {
+  font-size: 24px;
+}
