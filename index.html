@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/favicon.svg" />
     <title>WordWise</title>
   </head>
   <body>
@@ -12,15 +13,98 @@
       <img class="avatar" src="/images/avatar.svg" alt="Аватар" />
     </header>
     <main>
-      <h1 class="intro-text">Вітаємо в WordWise</h1>
-      <p class="intro-paragraph">
-        Найкращий додаток для поліпшення словникового запасу!
-      </p>
-      <div class="flags-container">
-        <img class="eng" src="/images/eng.png" alt="Українська" />
-        <img class="ua" src="/images/ua.png" alt="Англійська" />
+      <div class="intro-container">
+        <h1 class="intro-text">Вітаємо в WordWise</h1>
+        <p class="intro-paragraph">
+          Найкращий додаток для поліпшення словникового запасу!
+        </p>
+        <div class="flags-container">
+          <img class="eng" src="/images/eng.png" alt="Українська" />
+          <img class="ua" src="/images/ua.png" alt="Англійська" />
+        </div>
+        <button class="start-button">До тестів</button>
       </div>
-      <button class="start-button">До тестів</button>
+      <div class="question-container">
+        <div class="question-header">
+          <div class="heart-container">
+            <img src="images/heart.svg" alt="heart" style="margin-right: 5px" />
+            <p class="heart-counter">3</p>
+          </div>
+          <p class="question-text">Pillow</p>
+          <div class="timer-container">
+            <p class="timer-counter" style="margin-left: 5px">72</p>
+            <img src="images/timer.svg" alt="correct" />
+          </div>
+        </div>
+        <div class="question-body">
+          <div class="card" id="card1">
+            <img
+              class="card-image"
+              id="card-image1"
+              src="https://www.collinsdictionary.com/images/full/apple_158989157.jpg"
+              alt=""
+            />
+            <hr />
+            <p class="card-text">Яблуко</p>
+          </div>
+          <div class="card" id="card2">
+            <img
+              class="card-image"
+              id="card-image2"
+              src="https://canada.fairmontstore.com/cdn/shop/products/Pillow_Feather_Shot_3.jpg?v=1665158422&width=1946"
+              alt=""
+            />
+            <hr />
+            <p class="card-text">Подушка</p>
+          </div>
+          <div class="card" id="card3">
+            <img
+              class="card-image"
+              id="card-image3"
+              src="https://fruit-time.ua/images/cache/products/57/mandarin-aixan-imp-500x500.jpeg"
+              alt=""
+            />
+            <hr />
+            <p class="card-text">Мандарин</p>
+          </div>
+        </div>
+        <div class="question-footer">
+          <div class="cards-container">
+            <img src="/images/left.svg" />
+            <p class="cards-counter">12</p>
+          </div>
+          <div class="correct-container">
+            <p class="correct-counter">12</p>
+            <img src="/images/correct.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="results-container">
+        <h1 class="results-title">CONGRATS!</h1>
+        <hr
+          style="border: 2px solid white; width: 700px; margin-bottom: 50px"
+        />
+        <p class="result-text">Загальна кількість питаннь: <span>20</span></p>
+        <p class="result-text">
+          Кількість правильних відповідей: <span>15</span>
+        </p>
+        <p class="result-text">Часу знадобилось: <span>20</span>c</p>
+        <p class="result-text">Результат: <span>задовільний</span></p>
+        <div class="results-images-container">
+          <a href="https://www.facebook.com/">
+            <img src="images/image 6.png" alt="" />
+          </a>
+          <a href="https://x.com/">
+            <img src="images/image 7.png" alt="" />
+          </a>
+          <a href="https://web.telegram.org/">
+            <img src="images/image 8.png" alt="" />
+          </a>
+        </div>
+        <div class="restart-button">
+          <img src="images/restart.png" alt="" />
+        </div>
+      </div>
     </main>
     <footer>
       <p class="footer-text">©LogikaSchool 2024 all rights reserved</p>

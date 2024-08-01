@@ -31,11 +31,20 @@ header {
 }
 
 main {
-  background: url("/images/intro-image.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/intro-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   flex: 1;
+  text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.8);
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-container {
+  display: none;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -81,4 +90,136 @@ footer {
 
 .footer-text {
   font-size: 24px;
+}
+
+.question-container {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+}
+
+.question-header {
+  padding: 55px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heart-container {
+  display: flex;
+  align-items: center;
+}
+
+.heart-counter,
+.timer-counter {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.question-text {
+  font-size: 72px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+}
+
+.question-body {
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+}
+
+.card {
+  height: 420px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+#card1 {
+  background-color: #c02222;
+}
+
+#card2 {
+  background-color: #008e4a;
+}
+
+#card3 {
+  background-color: #d3a500;
+}
+
+.card-text {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+  text-shadow: none;
+  margin-top: 20px;
+}
+
+.card-image {
+  width: 300px;
+  height: 300px;
+}
+
+hr {
+  border: 2px solid white;
+}
+
+.question-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  margin-top: 120px;
+}
+
+.cards-counter,
+.correct-counter {
+  color: white;
+  font-size: 24px;
+}
+
+.cards-container,
+.correct-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.results-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results-title {
+  color: white;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.result-text {
+  color: white;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.results-images-container {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.restart-button {
+  margin-top: 50px;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
 }
