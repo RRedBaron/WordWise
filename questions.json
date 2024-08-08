@@ -1,0 +1,204 @@
+{
+  "questions": [
+    {
+      "word": "Apple",
+      "options": [
+        {
+          "text": "Яблоко",
+          "correct": true,
+          "image_url": "https://www.collinsdictionary.com/images/full/apple_158989157.jpg"
+        },
+        {
+          "text": "Апельсин",
+          "correct": false,
+          "image_url": "https://www.fervalle.com/wp-content/uploads/2022/07/transparent-orange-apple5eacfeae85ac29.7815306015883956945475.png"
+        },
+        {
+          "text": "Банан",
+          "correct": false,
+          "image_url": "https://i5.walmartimages.com/seo/Fresh-Banana-Fruit-Each_5939a6fa-a0d6-431c-88c6-b4f21608e4be.f7cd0cc487761d74c69b7731493c1581.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+        }
+      ]
+    },
+    {
+      "word": "Dog",
+      "options": [
+        {
+          "text": "Собака",
+          "correct": true,
+          "image_url": "https://example.com/images/dog.jpg"
+        },
+        {
+          "text": "Кошка",
+          "correct": false,
+          "image_url": "https://example.com/images/cat.jpg"
+        },
+        {
+          "text": "Лошадь",
+          "correct": false,
+          "image_url": "https://example.com/images/horse.jpg"
+        }
+      ]
+    },
+    {
+      "word": "Sun",
+      "options": [
+        {
+          "text": "Солнце",
+          "correct": true,
+          "image_url": "https://example.com/images/sun.jpg"
+        },
+        {
+          "text": "Луна",
+          "correct": false,
+          "image_url": "https://example.com/images/moon.jpg"
+        },
+        {
+          "text": "Звезда",
+          "correct": false,
+          "image_url": "https://example.com/images/star.jpg"
+        }
+      ]
+    },
+    {
+      "word": "Tree",
+      "options": [
+        {
+          "text": "Дерево",
+          "correct": true,
+          "image_url": "https://example.com/images/tree.jpg"
+        },
+        {
+          "text": "Куст",
+          "correct": false,
+          "image_url": "https://example.com/images/bush.jpg"
+        },
+        {
+          "text": "Цветок",
+          "correct": false,
+          "image_url": "https://example.com/images/flower.jpg"
+        }
+      ]
+    },
+    {
+      "word": "Car",
+      "options": [
+        {
+          "text": "Машина",
+          "correct": true,
+          "image_url": "https://example.com/images/car.jpg"
+        },
+        {
+          "text": "Поезд",
+          "correct": false,
+          "image_url": "https://example.com/images/train.jpg"
+        },
+        {
+          "text": "Самолет",
+          "correct": false,
+          "image_url": "https://example.com/images/airplane.jpg"
+        }
+      ]
+    },
+    {
+      "word": "House",
+      "options": [
+        {
+          "text": "Дом",
+          "correct": true,
+          "image_url": "https://example.com/images/house.jpg"
+        },
+        {
+          "text": "Квартира",
+          "correct": false,
+          "image_url": "https://example.com/images/apartment.jpg"
+        },
+        {
+          "text": "Школа",
+          "correct": false,
+          "image_url": "https://example.com/images/school.jpg"
+        }
+      ]
+    },
+    {
+      "word": "Book",
+      "options": [
+        {
+          "text": "Книга",
+          "correct": true,
+          "image_url": "https://example.com/images/book.jpg"
+        },
+        {
+          "text": "Газета",
+          "correct": false,
+          "image_url": "https://example.com/images/newspaper.jpg"
+        },
+        {
+          "text": "Журнал",
+          "correct": false,
+          "image_url": "https://example.com/images/magazine.jpg"
+        }
+      ]
+    },
+    {
+      "word": "Chair",
+      "options": [
+        {
+          "text": "Стул",
+          "correct": true,
+          "image_url": "https://example.com/images/chair.jpg"
+        },
+        {
+          "text": "Стол",
+          "correct": false,
+          "image_url": "https://example.com/images/table.jpg"
+        },
+        {
+          "text": "Скамейка",
+          "correct": false,
+          "image_url": "https://example.com/images/bench.jpg"
+        }
+      ]
+    },
+    {
+      "word": "Fish",
+      "options": [
+        {
+          "text": "Рыба",
+          "correct": true,
+          "image_url": "https://example.com/images/fish.jpg"
+        },
+        {
+          "text": "Птица",
+          "correct": false,
+          "image_url": "https://example.com/images/bird.jpg"
+        },
+        {
+          "text": "Кит",
+          "correct": false,
+          "image_url": "https://example.com/images/whale.jpg"
+        }
+      ]
+    },
+    {
+      "word": "Water",
+      "options": [
+        {
+          "text": "Вода",
+          "correct": true,
+          "image_url": "https://example.com/images/water.jpg"
+        },
+        {
+          "text": "Молоко",
+          "correct": false,
+          "image_url": "https://example.com/images/milk.jpg"
+        },
+        {
+          "text": "Сок",
+          "correct": false,
+          "image_url": "https://example.com/images/juice.jpg"
+        }
+      ]
+    }
+  ]
+}
