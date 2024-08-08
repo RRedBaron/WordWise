@@ -2,11 +2,7 @@ let intro_container = document.querySelector(".intro-container");
 let question_container = document.querySelector(".question-container");
 let start_button = document.querySelector(".start-button");
 
-start_button.addEventListener("click", function () {
-  intro_container.style.display = "none";
-  question_container.style.display = "flex";
-  start_quiz();
-});
+start_button.addEventListener("click", start_quiz);
 
 let questions;
 fetch("./questions.json")
@@ -20,6 +16,12 @@ let current_question = 0;
 let current_question_correct; // змінна, яка зберігає поточну правильну відповідь
 let hp = 3;
 
+let logo = document.querySelector(".logo");
+logo.addEventListener("click", function () {
+  intro_container.style.display = "flex";
+  question_container.style.display = "none";
+});
+
 let heart_counter = document.querySelector(".heart-counter");
 let question_text = document.querySelector(".question-text");
 let time_counter = document.querySelector(".timer-counter");
@@ -28,6 +30,12 @@ let cards_counter = document.querySelector(".cards-counter");
 let correct_counter = document.querySelector(".correct-counter");
 
 function start_quiz() {
+  correct_answers = 0;
+  current_question = 0;
+  hp = 3;
+
+  intro_container.style.display = "none";
+  question_container.style.display = "flex";
   question_text.innerHTML = questions[current_question].word;
   cards_counter.innerHTML = questions.length;
   correct_counter.innerHTML = 0;
@@ -76,3 +84,8 @@ for (let i = 0; i < 3; i++) {
     }
   });
 }
+
+// пофіксити баги з перезапуском
+// додати екран з результатом
+// додати можливість вибору мову перед початком тесту
+// зробити квіз адаптивним

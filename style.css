@@ -21,6 +21,7 @@ header {
 }
 
 .logo {
+  cursor: pointer;
   width: 280px;
   height: 65px;
 }
@@ -78,6 +79,13 @@ main {
   height: 70px;
   border-radius: 20px;
   margin-top: 60px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.start-button:hover {
+  background-color: #589c55;
 }
 
 footer {
@@ -222,4 +230,15 @@ hr {
   cursor: pointer;
   width: 100px;
   height: 100px;
+}
+
+.eng,
+.ua {
+  transition: transform 0.2s ease-in;
+  cursor: pointer;
+}
+
+.eng:hover,
+.ua:hover {
+  transform: scale(1.03);
 }
