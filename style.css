@@ -146,6 +146,15 @@ footer {
   height: 420px;
   width: 300px;
   border-radius: 15px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card:active {
+  transform: scale(0.98);
 }
 
 #card1 {
@@ -173,6 +182,7 @@ footer {
 .card-image {
   width: 300px;
   height: 300px;
+  border-radius: 15px 15px 0 0;
 }
 
 hr {
@@ -230,6 +240,11 @@ hr {
   cursor: pointer;
   width: 100px;
   height: 100px;
+  transition: all 0.4s ease-in-out;
+}
+
+.restart-button:hover {
+  transform: scale(1.04);
 }
 
 .eng,
